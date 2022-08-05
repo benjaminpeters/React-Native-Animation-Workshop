@@ -4,21 +4,11 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {HomeScreen} from './Home';
 import {Basics} from './Screens/Basics';
 
-const linking = {
-  config: {
-    screens: {
-      Home: '',
-      Basics: 'basics',
-    },
-  },
-  prefixes: ['rnskia://'],
-};
-
 const Stack = createNativeStackNavigator();
 
 const NavigationTree = () => {
   return (
-    <NavigationContainer linking={linking}>
+    <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen
           name="Home"
