@@ -11,6 +11,11 @@ export const HomeScreen = () => {
         description="Some simple rotation and animations"
         route="Basics"
       />
+      <HomeScreenButton
+        title="PanGestureHandler"
+        description="Messing around with PanGestureHandler"
+        route="PanGestureHandler"
+      />
     </ScrollView>
   );
 };

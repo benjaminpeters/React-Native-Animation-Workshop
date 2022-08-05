@@ -3,6 +3,7 @@ import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {HomeScreen} from './Home';
 import {Basics} from './Screens/Basics';
+import {PanGestureHandlerScreen} from './Screens/PanGestureHandlerScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -23,6 +24,14 @@ const NavigationTree = () => {
           component={Basics}
           options={{
             title: 'Basics',
+            headerTitleAlign: 'center',
+          }}
+        />
+        <Stack.Screen
+          name="PanGestureHandler"
+          component={PanGestureHandlerScreen}
+          options={{
+            title: 'PanGestureHandler',
             headerTitleAlign: 'center',
           }}
         />
