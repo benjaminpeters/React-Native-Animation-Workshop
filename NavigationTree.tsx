@@ -4,6 +4,7 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {HomeScreen} from './Home';
 import {Basics} from './Screens/Basics';
 import {PanGestureHandlerScreen} from './Screens/PanGestureHandlerScreen';
+import {InterpolateScrollView} from './Screens/InterpolateScrollView';
 
 const Stack = createNativeStackNavigator();
 
@@ -32,6 +33,14 @@ const NavigationTree = () => {
           component={PanGestureHandlerScreen}
           options={{
             title: 'PanGestureHandler',
+            headerTitleAlign: 'center',
+          }}
+        />
+        <Stack.Screen
+          name="InterpolateScrollView"
+          component={InterpolateScrollView}
+          options={{
+            title: 'InterpolateScrollView',
             headerTitleAlign: 'center',
           }}
         />
