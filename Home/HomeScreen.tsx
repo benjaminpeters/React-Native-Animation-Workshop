@@ -21,6 +21,11 @@ export const HomeScreen = () => {
         description="Interpolate with ScrollView"
         route="InterpolateScrollView"
       />
+      <HomeScreenButton
+        title="InterpolateColours"
+        description="Interpolate colours"
+        route="InterpolateColours"
+      />
     </ScrollView>
   );
 };

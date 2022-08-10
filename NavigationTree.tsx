@@ -5,6 +5,7 @@ import {HomeScreen} from './Home';
 import {Basics} from './Screens/Basics';
 import {PanGestureHandlerScreen} from './Screens/PanGestureHandlerScreen';
 import {InterpolateScrollView} from './Screens/InterpolateScrollView';
+import {InterpolateColours} from './Screens/InterpolateColours';
 
 const Stack = createNativeStackNavigator();
 
@@ -41,6 +42,14 @@ const NavigationTree = () => {
           component={InterpolateScrollView}
           options={{
             title: 'InterpolateScrollView',
+            headerTitleAlign: 'center',
+          }}
+        />
+        <Stack.Screen
+          name="InterpolateColours"
+          component={InterpolateColours}
+          options={{
+            title: 'InterpolateColours',
             headerTitleAlign: 'center',
           }}
         />
