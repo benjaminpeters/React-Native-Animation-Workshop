@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Dimensions, StyleSheet, Switch, Text} from 'react-native';
+import {Dimensions, StyleSheet, Switch} from 'react-native';
 import Animated, {
   interpolateColor,
   useAnimatedStyle,
