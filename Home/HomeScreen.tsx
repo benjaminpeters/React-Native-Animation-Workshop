@@ -26,6 +26,11 @@ export const HomeScreen = () => {
         description="Interpolate colours"
         route="InterpolateColours"
       />
+      <HomeScreenButton
+        title="DoubleTap"
+        description="DoubleTap like Instagram"
+        route="DoubleTap"
+      />
     </ScrollView>
   );
 };

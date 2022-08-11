@@ -6,6 +6,7 @@ import {Basics} from './Screens/Basics';
 import {PanGestureHandlerScreen} from './Screens/PanGestureHandlerScreen';
 import {InterpolateScrollView} from './Screens/InterpolateScrollView';
 import {InterpolateColours} from './Screens/InterpolateColours';
+import {DoubleTap} from './Screens/DoubleTap';
 
 const Stack = createNativeStackNavigator();
 
@@ -50,6 +51,14 @@ const NavigationTree = () => {
           component={InterpolateColours}
           options={{
             title: 'InterpolateColours',
+            headerTitleAlign: 'center',
+          }}
+        />
+        <Stack.Screen
+          name="DoubleTap"
+          component={DoubleTap}
+          options={{
+            title: 'DoubleTap',
             headerTitleAlign: 'center',
           }}
         />
