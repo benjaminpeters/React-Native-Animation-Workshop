@@ -4,7 +4,6 @@ import {
   Image,
   ImageBackground,
   StyleSheet,
-  Text,
   View,
 } from 'react-native';
 import {TapGestureHandler} from 'react-native-gesture-handler';

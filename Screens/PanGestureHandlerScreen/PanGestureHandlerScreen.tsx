@@ -28,7 +28,7 @@ export const PanGestureHandlerScreen = () => {
     PanGestureHandlerGestureEvent,
     ContextType
   >({
-    onStart: (event, context) => {
+    onStart: (_, context) => {
       context.translateX = translateX.value;
       context.translateY = translateY.value;
     },
