@@ -31,6 +31,11 @@ export const HomeScreen = () => {
         description="DoubleTap like Instagram"
         route="DoubleTap"
       />
+      <HomeScreenButton
+        title="PanGestureScrollView"
+        description="Using PanGestureScrollView to recreate a scrollview"
+        route="PanGestureScrollView"
+      />
     </ScrollView>
   );
 };
